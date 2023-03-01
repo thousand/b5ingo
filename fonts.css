@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Serpentine Regular by Image Club
+ * URL: https://www.myfonts.com/products/regular-serpentine-341311
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Serpentine Bold by Image Club
+ * URL: https://www.myfonts.com/products/bold-serpentine-341316
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Serpentine Bold Oblique by Image Club
+ * URL: https://www.myfonts.com/products/bold-oblique-serpentine-341321
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Serpentine Light by Image Club
+ * URL: https://www.myfonts.com/products/light-serpentine-341326
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Serpentine Light Oblique by Image Club
+ * URL: https://www.myfonts.com/products/light-oblique-serpentine-341331
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Serpentine Oblique by Image Club
+ * URL: https://www.myfonts.com/products/oblique-serpentine-341336
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "Serpentine";
+  src: url('fonts/SerpentineRegular/font.woff2') format('woff2'), url('fonts/SerpentineRegular/font.woff') format('woff');
+}
+
+/* 
+  ********************
+  Unused for now...
+  ********************
+  @font-face {
+    font-family: "Serpentine";
+    src: url('fonts/SerpentineOblique/font.woff2') format('woff2'), url('fonts/SerpentineOblique/font.woff') format('woff');
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Serpentine";
+    src: url('fonts/SerpentineLight/font.woff2') format('woff2'), url('fonts/SerpentineLight/font.woff') format('woff');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Serpentine";
+    src: url('fonts/SerpentineLightOblique/font.woff2') format('woff2'), url('fonts/SerpentineLightOblique/font.woff') format('woff');
+    font-style: italic;
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Serpentine";
+    src: url('fonts/SerpentineBoldOblique/font.woff2') format('woff2'), url('fonts/SerpentineBoldOblique/font.woff') format('woff');
+    font-style: italic;
+    font-weight: 700;
+  }
+*/
+@font-face {
+  font-family: "Serpentine";
+  src: url('fonts/SerpentineBold/font.woff2') format('woff2'), url('fonts/SerpentineBold/font.woff') format('woff');
+  font-weight: 700;
+}
+

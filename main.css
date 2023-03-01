@@ -1,0 +1,87 @@
+:root {
+  --b5-blue-light: hsla(250, 32%, 61%);
+  --b5-blue-dark: hsl(250, 25%, 23%);
+  --b5-blue-dark-trans: hsla(250, 25%, 23%, 0.83);
+}
+
+html {
+  min-height: 100%;
+
+  background-color: #111;
+  color: #ddd;
+  
+  font-family: Serpentine, sans-serif;
+  font-synthesis: none;
+
+  background-image: url("img/b5_station.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 4rem;
+  margin: 1rem 0;
+  flex: 0 0 auto;
+  -webkit-text-stroke: 2px var(--b5-blue-light);
+}
+
+#spoiler-toggle {
+  margin: 0.5rem 0;
+}
+
+#board {
+  display: block;
+  flex: 1 1 100%;
+  width: 100%;
+  
+  display: grid;
+  justify-content: center;
+  --grid-size: calc((100vmin - 8rem) / 5);
+  grid-template-columns: repeat(5, var(--grid-size));
+  grid-template-rows: repeat(5, var(--grid-size));
+}
+
+.cell {
+  font-size: 2.25vmin;
+  text-align: center;
+  color: #ddd;
+  text-shadow: 0 0.1em 0.2em rgba(0,0,0,0.75);
+  /* box-shadow: 0 0 1px; */
+  margin: 0.1rem;
+  padding: 2vmin;
+  border-radius: 0.4rem;
+  background-color: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.cell.free {
+  font-size: 5vmin;
+}
+
+.cell.done {
+  background: var(--b5-blue-light);
+}
+.yes-gifs .cell.done {
+  color: var(--b5-blue-light);
+  background-image: radial-gradient(circle, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.6) 45%, rgba(0,0,0,0) 100%), var(--bg-gif);
+  background-position: center, center;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+}
