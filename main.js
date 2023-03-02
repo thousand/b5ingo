@@ -30,6 +30,7 @@ const SQUARES = [
   'Alien food substitute for earth food',
   'Crewmember in civilian clothes',
   'Newscast on a monitor',
+  "Crewmember's old friend/lover shows up",
 ];
 const TENOR_FETCH_URI =
   'https://api.tenor.com/v1/random?q=Babylon+5&limit=5&contentfilter=off&locale=en_US&key=FR57D8JH3LYH';
