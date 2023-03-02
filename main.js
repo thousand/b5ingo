@@ -4,7 +4,8 @@ const SQUARES = [
   'Ivanova is a pessimist',
   'Star Fury Battle',
   'The attache gets the shaft',
-  'Incredibly obvious foreshadowing',
+  'Human stranger with ominous motives',
+  'Alien with ominous motives',
   'Londo fucks up',
   'Dr Franklin is smug',
   'Londo reminisces about the old days',
@@ -18,7 +19,7 @@ const SQUARES = [
   'Unexpected jump gate/point',
   'Telepath strains to read someone',
   'Psy cops show up',
-  'Telepath level discussion',
+  'Telepath level measuring contest',
   'Another Minbari ritual',
   "We're in Kosh's quarters",
   'The non-aligned worlds are aligned',
@@ -31,6 +32,14 @@ const SQUARES = [
   'Crewmember in civilian clothes',
   'Newscast on a monitor',
   "Crewmember's old friend/lover shows up",
+  'Minbari caste politics',
+  'Someone calls it "B5"',
+  '"Mister Garibaldi!!"',
+  'Crime dealings',
+  'Someone is held captive',
+  'CGI alien',
+  'Londo is suspicious',
+  "That insectoid alien (N'Grath) shows up",
 ];
 const TENOR_FETCH_URI =
   'https://api.tenor.com/v1/random?q=Babylon+5&limit=5&contentfilter=off&locale=en_US&key=FR57D8JH3LYH';

@@ -1,7 +1,10 @@
 :root {
-  --b5-blue-light: hsla(250, 32%, 61%);
-  --b5-blue-dark: hsl(250, 25%, 23%);
-  --b5-blue-dark-trans: hsla(250, 25%, 23%, 0.83);
+  --title-blue-light: hsl(245, 55%, 80%);
+  --title-blue-dark: hsla(245, 36%, 40%);
+  --credit-blue-light: hsl(224, 100%, 85%);
+  --credit-blue-dark: hsl(224, 41%, 38%);
+  --b5-blue-dark-trans: hsla(224, 41%, 24%, 0.75);
+  
 }
 
 html {
@@ -29,11 +32,15 @@ body {
 }
 
 #title {
+  color: var(--title-blue-dark);
+  text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
   font-size: 4rem;
   margin: 1rem 0;
   flex: 0 0 auto;
-  -webkit-text-stroke: 2px var(--b5-blue-light);
+  -webkit-text-stroke: 2px var(--title-blue-light);
+  text-shadow: 0 0.1em 0.3em rgba(0,0,0,0.75);
 }
 
 #spoiler-toggle {
@@ -55,9 +62,7 @@ body {
 .cell {
   font-size: 2.25vmin;
   text-align: center;
-  color: #ddd;
-  text-shadow: 0 0.1em 0.2em rgba(0,0,0,0.75);
-  /* box-shadow: 0 0 1px; */
+  color: #ccc;
   margin: 0.1rem;
   padding: 2vmin;
   border-radius: 0.4rem;
@@ -68,6 +73,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  backdrop-filter: saturate(15%) blur(10px);
+  cursor: pointer;
 }
 
 .cell.free {
@@ -75,12 +82,24 @@ body {
 }
 
 .cell.done {
-  background: var(--b5-blue-light);
+  background-color: var(--b5-blue-dark-trans);
+  color: var(--credit-blue-light);
+  text-shadow: 
+    0.01em 0.01em 0 rgba(0,0,0,0.75), 
+    0.115em 0.066em 0 var(--credit-blue-dark);
+  backdrop-filter: saturate(150%) blur(10px); 
 }
 .yes-gifs .cell.done {
-  color: var(--b5-blue-light);
-  background-image: radial-gradient(circle, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.6) 45%, rgba(0,0,0,0) 100%), var(--bg-gif);
+  background-image: 
+    radial-gradient(
+      circle,
+      hsla(247, 53%, 17%, 0.674) 0%,
+      hsla(245, 60%, 27%, 0.607) 65%,
+      hsla(230, 66%, 59%, 0.75) 110%
+    ),
+    var(--bg-gif);
   background-position: center, center;
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
+  background-blend-mode: exclusion, darken;
 }
