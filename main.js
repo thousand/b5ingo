@@ -11,7 +11,7 @@ const SQUARES = [
   'Londo day drinking',
   'PPG fight',
   'Narn pouch mentioned',
-  'Brown sector',
+  "We're in brown sector",
   "Someone doesn't like telepaths",
   'Star Trek actor/actress shows up',
   'Misplaced Christopher Franke comedy music',
@@ -23,6 +23,13 @@ const SQUARES = [
   "We're in Kosh's quarters",
   'The non-aligned worlds are aligned',
   'Silent alien extra',
+  'Babylon 5 fighting',
+  "Garibaldi's alcoholism alluded to",
+  'Xenophobia',
+  'Earth religious leader shows up',
+  'Alien food substitute for earth food',
+  'Crewmember in civilian clothes',
+  'Newscast on a monitor',
 ];
 const TENOR_FETCH_URI =
   'https://api.tenor.com/v1/random?q=Babylon+5&limit=5&contentfilter=off&locale=en_US&key=FR57D8JH3LYH';
