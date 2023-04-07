@@ -5,8 +5,7 @@ const SQUARES = [
   'Star Fury Battle',
   'An attache gets a shit assignment',
   'Human stranger with ominous motives',
-  'Alien with ominous motives',
-  'Londo admits he was wrong',
+  'Alien stranger with ominous motives',
   'Dr. Franklin is smug',
   'Londo reminisces about the old days',
   'Londo day drinking',
@@ -16,10 +15,8 @@ const SQUARES = [
   "Someone doesn't like telepaths",
   'Star Trek actor/actress shows up',
   'Christopher Franke comedy music',
-  'Unexpected jump gate/point',
   'Telepath strains to read someone',
   'Psy cops show up',
-  'Telepath level measuring contest',
   'Another Minbari ritual',
   "We're in Kosh's quarters",
   'The non-aligned worlds are upset',
@@ -28,8 +25,6 @@ const SQUARES = [
   "Garibaldi's alcoholism alluded to",
   'Xenophobia',
   'Earth religious leader shows up',
-  'Alien food substitute for earth food',
-  'Crewmember in civilian clothes',
   'Newscast on a monitor',
   "Someone's old friend/lover shows up",
   'Minbari caste politics',
@@ -38,15 +33,17 @@ const SQUARES = [
   'Crime dealings',
   'Someone is held captive',
   'CGI alien',
-  'Londo is suspicious',
-  "N'Grath (that insectoid alien) shows up",
+  "N'Grath (that insectoid) shows up",
   'Airport terminal announcement',
   'Spoo!',
-  'Another Babylon station mentioned',
-  'Station financial problem',
   'Ship docking/departing',
   'Ambassador has to consult their government',
-];
+  'Dealmaking with the shadows',
+  'Gray council meeting',
+  "G'Quan mentioned",
+  'Someone says, "In Valen\'s Name"',
+  'Sheridan says "Ah hell" or some variation';
+
 const TENOR_FETCH_URI =
   'https://api.tenor.com/v1/random?q=Babylon+5&limit=5&contentfilter=off&locale=en_US&key=FR57D8JH3LYH';
 const BG_GIF_VAR = '--bg-gif';
