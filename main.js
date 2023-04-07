@@ -21,10 +21,9 @@ const SQUARES = [
   "We're in Kosh's quarters",
   'The non-aligned worlds are upset',
   'Silent alien extra',
-  'Babylon 5 fighting',
   "Garibaldi's alcoholism alluded to",
   'Xenophobia',
-  'Earth religious leader shows up',
+  'Crewmember in civilian clothes',
   'Newscast on a monitor',
   "Someone's old friend/lover shows up",
   'Minbari caste politics',
@@ -42,7 +41,8 @@ const SQUARES = [
   'Gray council meeting',
   "G'Quan mentioned",
   'Someone says, "In Valen\'s Name"',
-  'Sheridan says "Ah hell" or some variation';
+  'Sheridan says "Ah hell" or some variation',
+];
 
 const TENOR_FETCH_URI =
   'https://api.tenor.com/v1/random?q=Babylon+5&limit=5&contentfilter=off&locale=en_US&key=FR57D8JH3LYH';
