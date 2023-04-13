@@ -32,7 +32,6 @@ const SQUARES = [
   'Crime dealings',
   'Someone is held captive',
   'CGI alien',
-  "N'Grath (that insectoid) shows up",
   'Airport terminal announcement',
   'Spoo!',
   'Ship docking/departing',
@@ -42,6 +41,7 @@ const SQUARES = [
   "G'Quan mentioned",
   'Someone says, "In Valen\'s Name"',
   'Sheridan says "Ah hell" or some variation',
+  'Transparent paper',
 ];
 
 const TENOR_FETCH_URI =
