@@ -15,7 +15,6 @@ const SQUARES = [
   "Someone doesn't like telepaths",
   'Star Trek actor/actress shows up',
   'Christopher Franke comedy music',
-  'Telepath strains to read someone',
   'Psy cops show up',
   'Another Minbari ritual',
   "We're in Kosh's quarters",
@@ -33,15 +32,16 @@ const SQUARES = [
   'Someone is held captive',
   'CGI alien',
   'Airport terminal announcement',
-  'Spoo!',
   'Ship docking/departing',
   'Ambassador has to consult their government',
   'Dealmaking with the shadows',
   'Gray council meeting',
-  "G'Quan mentioned",
-  'Someone says, "In Valen\'s Name"',
+  // "G'Quan mentioned",
+  '"In Valen\'s Name"',
   'Sheridan says "Ah hell" or some variation',
   'Transparent paper',
+  'Sheridan eyes to commercial',
+  'War memories',
 ];
 
 const TENOR_FETCH_URI =
