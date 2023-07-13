@@ -36,12 +36,14 @@ const SQUARES = [
   'Ambassador has to consult their government',
   'Dealmaking with the shadows',
   'Gray council meeting',
-  // "G'Quan mentioned",
+  "G'Quan mentioned",
   '"In Valen\'s Name"',
   'Sheridan says "Ah hell" or some variation',
   'Transparent paper',
   'Sheridan eyes to commercial',
   'War memories',
+  "We're on a White Star ship",
+  'Shadow ship lasers',
 ];
 
 const TENOR_FETCH_URI =
