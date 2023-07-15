@@ -44,6 +44,7 @@ const SQUARES = [
   'War memories',
   "We're on a White Star ship",
   'Shadow ship lasers',
+  'Normal thing is different because aliens',
 ];
 
 const TENOR_FETCH_URI =
