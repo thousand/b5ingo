@@ -17,7 +17,6 @@ const SQUARES = [
   'Christopher Franke comedy music',
   'Psy cops show up',
   'Another Minbari ritual',
-  "We're in Kosh's quarters",
   'The non-aligned worlds are upset',
   'Silent alien extra',
   "Garibaldi's alcoholism alluded to",
